@@ -13,8 +13,6 @@ public class SpringTesteApplication implements CommandLineRunner{
 
 	@Override
 	public void run(String... args) throws Exception {
-		System.out.println("running");
-		
+		//System.out.println("running");		
 	}
-
 }
