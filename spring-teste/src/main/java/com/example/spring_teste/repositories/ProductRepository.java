@@ -1,4 +1,4 @@
-package com.example.spring_teste.repository;
+package com.example.spring_teste.repositories;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 

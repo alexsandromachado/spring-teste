@@ -1,4 +1,4 @@
-package com.example.spring_teste;
+package com.example.spring_teste.services;
 
 import java.util.List;
 
@@ -8,7 +8,7 @@ import org.springframework.stereotype.Service;
 import com.example.spring_teste.dto.ProductRequestDTO;
 import com.example.spring_teste.dto.ProductResponseDTO;
 import com.example.spring_teste.entities.Product;
-import com.example.spring_teste.repository.ProductRepository;
+import com.example.spring_teste.repositories.ProductRepository;
 
 @Service
 public class ProductService {

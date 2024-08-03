@@ -1,4 +1,4 @@
-package com.example.spring_teste.controller;
+package com.example.spring_teste.controllers;
 
 import java.net.URI;
 import java.util.List;
@@ -12,9 +12,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
-import com.example.spring_teste.ProductService;
 import com.example.spring_teste.dto.ProductRequestDTO;
 import com.example.spring_teste.dto.ProductResponseDTO;
+import com.example.spring_teste.services.ProductService;
 
 import jakarta.validation.Valid;
 
